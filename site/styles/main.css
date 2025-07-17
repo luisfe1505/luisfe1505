@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+    color: rgb(83, 80, 94)
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.width-wrap{
+    max-width: 960px;
+    margin: 0 auto 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-top: none;
+    margin-bottom: 3em;
+    background-color: rgb(215, 219, 188);
+}
+footer{
+    width:50vw;
+    min-width: 300px;
+    max-width: 890px;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border: none;
+    border-bottom: 3px dotted rgba(56, 25, 4, 0.9);
+}
+
+dt::after{
+    content: ":";
+}
+
+body{
+    background-color: rgb(65, 58, 130)
+}
+
+h1{
+    color: rgb(73, 9, 9)
+}
+
+h2{
+    color: rgb(73, 9, 9);
+}
+
+h3{
+    color: rgb(173, 0, 0);
+}
+
+a{
+    color: rgb(124, 12, 12);
+}
+
+header a{
+    color: rgb(185, 8, 31);
+}
+
+*::selection{
+    background-color: rgb(144, 123, 212);
+}
+
+header {
+    border-top: 4px solid rgba(0,0,0,0.1);
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+header nav{
+    border-bottom: 1px dotted rgba(255,255,255,0.3);
+    padding-left:2em;
+    padding-right:2em;
+}
+
+header nav ul{
+    margin:0;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a {
+    border-top: 4px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em 1em 0.5em 1em;  /* Top Right Bottom Left*/
+    margin-top: -4px;
+}
+
+header nav ul li a:hover{
+    border-top: 4px solid rgb(229, 255, 0);
+}
+
+td{
+    padding: 0.3em 1em;
+    background-color: rgba(255,255,255,0.05);
+}
+
+th{
+    padding: 0.3em 1em;
+}
+
+thead {
+    background-color: rgba(255,255,255,0.2);
+}
+
+tfoot {
+    background-color: rgba(255,255,255,0.2);
+}
+
+tbody th{
+    background-color: rgba(255,255,255,0.2);
+}
+
+tbody tr:nth-of-type(even){
+    background-color: rgba(255,255,255,0.15);
+}
+
+label{
+    display:block;
+}
+
+input[type="radio"] + label, 
+input[type="checkbox"] + label {
+    display: inline;
+}
+
+button[type="submit"]{
+    border: none;
+    padding: 1em 3em;
+    color:rgb(20, 0, 84);
+    background-color: rgb(144, 123, 212);
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    background-color: rgb(240, 229, 229);
+}
