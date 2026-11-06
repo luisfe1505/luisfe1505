@@ -6,6 +6,6 @@ I build secure backends and work with data: Python, SQL, Django, PostgreSQL, Doc
 
 Currently learning cybersecurity: Google Cybersecurity Certificate (in progress), ISC2 Certified in Cybersecurity and CompTIA Security+ (planned).
 
-Featured project: Team-Tech Hub Platform - Backend & Database Lead - Python, Django, PostgreSQL, Docker - designed the relational schema, secure APIs, and deployment environments.
+Featured project: [Team-Tech Hub Platform](https://github.com/saultcollege-csd235/Team-Tech) - Backend & Database Lead - Python, Django, PostgreSQL, Docker - designed the relational schema, secure APIs, and deployment environments.
 
 Contact: luisfelipedavilap@gmail.com | LinkedIn: https://www.linkedin.com/in/luis-felipe-dávila-8b8673342
